@@ -1,4 +1,4 @@
 import Button from "./Button";
 import NavBar from "./NavBar";
-
-export { NavBar, Button };
+import Work from "./Work";
+export { NavBar, Button, Work };
