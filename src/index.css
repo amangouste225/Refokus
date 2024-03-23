@@ -1,0 +1,38 @@
+/* FONTS STYLES */
+
+@font-face {
+    font-family: Satoshi Variable;
+    src: url(fonts/Satoshi-Black.otf);
+    font-weight: 900
+}
+
+@font-face {
+    font-family: Satoshi Variable;
+    src: url(fonts/Satoshi-Bold.otf);
+    font-weight: 700
+}
+
+@font-face {
+    font-family: Satoshi Variable;
+    src: url(fonts/Satoshi-Medium.otf);
+    font-weight: 500
+}
+
+
+@font-face {
+    font-family: Satoshi Variable;
+    src: url(fonts/Satoshi-Regular.otf);
+    font-weight: 500
+}
+
+@font-face {
+    font-family: Satoshi Variable;
+    src: url(fonts/Satoshi-Light.otf);
+    font-weight: 300
+}
+
+/* TAILWIND CSS */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities
