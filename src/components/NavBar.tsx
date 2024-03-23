@@ -5,8 +5,8 @@ export default function NavBar() {
   const links = ["home", "work", "news", "", "culture"];
 
   return (
-    <div className="max-w-screen-xl mx-auto py-6 flex items-center justify-between border-b-[1px] border-zinc-600">
-      <div className=" flex items-center">
+    <header className="max-w-screen-xl w-full mx-auto py-6 flex items-center justify-between border-b-[1px] border-zinc-600 absolute left-1/2 -translate-x-1/2">
+      <div className=" flex items-center ">
         <img src={Logo} alt="logo" />
         <ul className="flex items-center gap-10 ml-32">
           {links.map((link, id) => (
@@ -32,6 +32,6 @@ export default function NavBar() {
         </ul>
       </div>
       <Button>Start a project</Button>
-    </div>
+    </header>
   );
 }

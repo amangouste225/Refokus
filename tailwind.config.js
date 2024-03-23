@@ -4,7 +4,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        regular: " Satoshi Variable",
+        regular: "Satoshi Variable",
+      },
+      screens: {
+        xl: "1420px",
       },
     },
   },
