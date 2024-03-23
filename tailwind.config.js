@@ -7,7 +7,7 @@ export default {
         regular: "Satoshi Variable",
       },
       screens: {
-        xl: "1420px",
+        xl: "1380px",
       },
     },
   },

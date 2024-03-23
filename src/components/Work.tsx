@@ -1,7 +1,7 @@
-import Work1 from "../assets/images/work1.png";
-import Work2 from "../assets/images/work2.png";
-import Work3 from "../assets/images/work3.png";
-import Work4 from "../assets/images/work4.png";
+import Work1 from "../assets/images/works/work1.png";
+import Work2 from "../assets/images/works/work2.png";
+import Work3 from "../assets/images/works/work3.png";
+import Work4 from "../assets/images/works/work4.png";
 
 export default function Work() {
   const images = [
@@ -12,8 +12,8 @@ export default function Work() {
   ];
 
   return (
-    <section className="h-screen w-full py-20">
-      <div className="max-w-screen-xl mx-auto h-full  relative">
+    <section className="h-[600px] w-full py-20">
+      <div className="max-w-screen-xl mx-auto h-full relative">
         <div className="absolute w-full bottom-0 text-white flex flex-row items-end justify-between">
           <h1 className="flex flex-col font-medium capitalize select-none">
             <span className="text-[12vw] bigText">unique</span>
